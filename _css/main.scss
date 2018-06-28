@@ -1,0 +1,26 @@
+@import "partials/reset";
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/headings";
+
+body {
+  background-color: $body-background-color;
+  color: $body-font-color;
+  display: flex;
+  flex-direction: column;
+  font-family: $body-font-family;
+  height: 100vh;
+  line-height: $font-line-height-normal;
+  margin: 0;
+  padding: 0;
+}
+
+.full-height-content {
+  border: 15px solid $body-border-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 10%;
+
+}
